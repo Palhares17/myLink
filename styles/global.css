@@ -6,13 +6,11 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: #000;
+  background: #000000;
   color: #fefefe;
-  display: grid;
-  place-items: center;
-  grid-template-columns: 1fr;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 70%, rgba(15, 6, 81, 1) 100%);
+  min-height: 100vh;
 }
 
 button {
@@ -21,4 +19,11 @@ button {
   font: inherit;
   color: inherit;
   cursor: pointer;
+}
+
+footer {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: .875rem;
 }
